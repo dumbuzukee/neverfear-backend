@@ -1,0 +1,186 @@
+{
+    "en": {
+        "AUTHORIZED": "Authorized",
+        "UNAUTHORIZED": "Unauthorized",
+
+        "API_NOT_ALLOWED": "You are not allowed to use this api",
+
+        "UPDATE_PERMISSION_NOT_ALLOWED": "You are not allowed to update this account's role",
+        "DELETE_PERMISSION_NOT_ALLOWED": "You are not allowed to delete this account",
+        "DELETE_YOURSELF_NOT_ALLOWED": "You are not allowed to delete your own account",
+
+        "INVALID_USERNAME": "Invalid username",
+        "INVALID_PASSWORD": "Invalid password",
+
+        "INVALID_EMAIL_FORMAT": "Invalid email format",
+        "INVALID_USERNAME_FORMAT": "Invalid username format",
+        "INVALID_USERNAME_LENGTH": "Username must include at least 3 characters",
+        "INVALID_PASSWORD_LENGTH": "Password must include at least 6 characters",
+
+        "INVALID_TURSNTILE_TOKEN": "Invalid Cloudflare Turnstile token",
+
+        "INVALID_SLIP_PAYLOAD": "Invalid slip payload",
+        "INAVLID_SLIP_AMOUNT": "Invalid amount",
+        "INVALID_SLIP_AGE": "Slip has already expired",
+
+        "INAVLID_RECEIVER_NAME": "Invalid receiver name",
+        "INAVLID_RECEIVER_ID": "Invalid receiver id",
+
+        "SLIP_EXISTED": "Slip is already existed",
+        "EMAIL_EXISTED": "Email is already existed",
+        "USERNAME_EXISTED": "Username is already existed",
+        
+        "CATEGORY_NOT_FOUND": "Category not found",
+        "PRODUCT_NOT_FOUND": "Product not found",
+        "USER_NOT_FOUND": "User not found",
+
+        "FAILED_CREATE_ACCOUNT": "Unable to create account",
+
+        "FAILED_CREATE_CATEGORY": "Unable to create category",
+        "FAILED_UPDATE_CATEGORY": "Unable to update category",
+        "FAILED_DELETE_CATEGORY": "Unable to delete category",
+
+        "FAILED_CREATE_PRODUCT": "Unable to create product",
+        "FAILED_UPDATE_PRODUCT": "Unable to update product",
+        "FAILED_DELETE_PRODUCT": "Unable to delete product",
+
+        "FAILED_UPDATE_CATEGORY_PRODUCTS": "Unable to update products' category",
+        "FAILED_UPDATE_PRODUCT_STOCK": "Unable to update product stock",
+
+        "FAILED_UPDATE_USER_BALANCE": "Unable to update user balance",
+        "FAILED_UPDATE_USER_ROLE": "Unable to update user role",
+        "FAILED_DELETE_USER": "Unable to delete this user",
+
+        "FAILED_CREATE_PURCHASED_HISTORY": "Unable to create purchased history",
+        "FAILED_CREATE_TOPPED_UP_HISTORY": "Unable to create topped-up history",
+
+        "INSUFFICIENT_STOCK": "Insufficient stock",
+        "INSUFFICIENT_BALANCE": "Insufficient balance",
+
+        "SUCCESS_VALIDATE_AUTH_CREDENTIALS": "Successfully validated auth credentials",
+        "SUCCESS_VALIDATE_CLOUDFLARE_TURNSTILE": "Successfully validated cloudflare turnstile",
+
+        "SUCCESS_FETCH_CATEGORY": "Category fetched successfully",
+        "SUCCESS_FETCH_CATEGORIES": "Categories fetched successfully",
+
+        "SUCCESS_CREATE_CATEGORY": "Category created successfully",
+        "SUCCESS_UPDATE_CATEGORY": "Category updated successfully",
+        "SUCCESS_DELETE_CATEGORY": "Category deleted successfully",
+
+        "SUCCESS_FETCH_PRODUCT": "Product fetched successfully",
+        "SUCCESS_FETCH_PRODUCTS": "Products fetched successfully",
+
+        "SUCCESS_CREATE_PRODUCT": "Product created successfully",
+        "SUCCESS_UPDATE_PRODUCT": "Product updated successfully",
+        "SUCCESS_DELETE_PRODUCT": "Product deleted successfully",
+
+        "SUCCESS_FETCH_USER": "User fetched successfully",
+        "SUCCESS_FETCH_USERS": "Users fetched successfully",
+
+        "SUCCESS_UPDATE_USER_BALANCE": "Successfully updated balance to this user",
+        "SUCCESS_UPDATE_USER_ROLE": "Successfully updated role to this user",
+        "SUCCESS_DELETE_USER": "Successfully deleted this user",
+
+        "SUCCESS_LOGIN": "Successfully logged in",
+        "SUCCESS_LOGOUT": "Successfully logged out",
+        "SUCCESS_REGISTER": "Successfully registered",
+
+        "SUCCESS_FETCH_PURCHASED_HISTORY": "Purchased history fetched successfully",
+        "SUCCESS_FETCH_TOPPED_UP_HISTORY": "Topped-Up history fetched successfully",
+
+        "SUCCESS_PURCHASE": "Successfully purchased",
+        "SUCCESS_TOPUP": "Successfully topped-up"
+    },
+    "th": {
+        "AUTHORIZED": "ได้รับอนุญาต",
+        "UNAUTHORIZED": "ไม่ได้รับอนุญาต",
+
+        "API_NOT_ALLOWED": "คุณไม่มีสิทธิ์ใช้งาน API นี้",
+
+        "UPDATE_PERMISSION_NOT_ALLOWED": "คุณไม่มีสิทธิ์เปลี่ยนบทบาทของผู้ใช้นี้",
+        "DELETE_PERMISSION_NOT_ALLOWED": "คุณไม่มีสิทธิ์ลบบัญชีนี้",
+        "DELETE_YOURSELF_NOT_ALLOWED": "คุณไม่สามารถลบบัญชีของตัวเองได้",
+
+        "INVALID_USERNAME": "ชื่อผู้ใช้ไม่ถูกต้อง",
+        "INVALID_PASSWORD": "รหัสผ่านไม่ถูกต้อง",
+
+        "INVALID_EMAIL_FORMAT": "รูปแบบอีเมลไม่ถูกต้อง",
+        "INVALID_USERNAME_FORMAT": "รูปแบบชื่อผู้ใช้ไม่ถูกต้อง",
+        "INVALID_USERNAME_LENGTH": "ชื่อผู้ใช้ต้องมีอย่างน้อย 3 ตัวอักษร",
+        "INVALID_PASSWORD_LENGTH": "รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร",
+
+        "INVALID_TURSNTILE_TOKEN": "โทเคน Turnstile ไม่ถูกต้อง",
+
+        "INVALID_SLIP_PAYLOAD": "ข้อมูลสลิปไม่ถูกต้อง",
+        "INAVLID_SLIP_AMOUNT": "จำนวนเงินไม่ถูกต้อง",
+        "INVALID_SLIP_AGE": "สลิปหมดอายุแล้ว",
+
+        "INAVLID_RECEIVER_NAME": "ชื่อผู้รับไม่ถูกต้อง",
+        "INAVLID_RECEIVER_ID": "รหัสผู้รับไม่ถูกต้อง",
+
+        "SLIP_EXISTED": "สลิปนี้ถูกใช้งานไปแล้ว",
+        "EMAIL_EXISTED": "อีเมลนี้ถูกใช้งานแล้ว",
+        "USERNAME_EXISTED": "ชื่อผู้ใช้นี้ถูกใช้งานแล้ว",
+
+        "CATEGORY_NOT_FOUND": "ไม่พบหมวดหมู่",
+        "PRODUCT_NOT_FOUND": "ไม่พบสินค้า",
+        "USER_NOT_FOUND": "ไม่พบผู้ใช้",
+
+        "FAILED_CREATE_ACCOUNT": "ไม่สามารถสร้างบัญชีได้",
+
+        "FAILED_CREATE_CATEGORY": "ไม่สามารถสร้างหมวดหมู่ได้",
+        "FAILED_UPDATE_CATEGORY": "ไม่สามารถอัปเดตหมวดหมู่ได้",
+        "FAILED_DELETE_CATEGORY": "ไม่สามารถลบหมวดหมู่ได้",
+
+        "FAILED_CREATE_PRODUCT": "ไม่สามารถสร้างสินค้าได้",
+        "FAILED_UPDATE_PRODUCT": "ไม่สามารถอัปเดตสินค้าได้",
+        "FAILED_DELETE_PRODUCT": "ไม่สามารถลบสินค้าได้",
+
+        "FAILED_UPDATE_CATEGORY_PRODUCTS": "ไม่สามารถอัปเดตหมวดหมู่ของสินค้าได้",
+        "FAILED_UPDATE_PRODUCT_STOCK": "ไม่สามารถอัปเดตจำนวนสินค้าได้",
+
+        "FAILED_UPDATE_USER_BALANCE": "ไม่สามารถอัปเดตยอดเงินของผู้ใช้ได้",
+        "FAILED_UPDATE_USER_ROLE": "ไม่สามารถอัปเดตบทบาทของผู้ใช้ได้",
+        "FAILED_DELETE_USER": "ไม่สามารถลบผู้ใช้นี้ได้",
+
+        "FAILED_CREATE_PURCHASED_HISTORY": "ไม่สามารถสร้างประวัติการซื้อได้",
+        "FAILED_CREATE_TOPPED_UP_HISTORY": "ไม่สามารถสร้างประวัติการเติมเงินได้",
+
+        "INSUFFICIENT_STOCK": "สินค้าไม่เพียงพอ",
+        "INSUFFICIENT_BALANCE": "ยอดเงินไม่เพียงพอ",
+
+        "SUCCESS_VALIDATE_AUTH_CREDENTIALS": "ตรวจสอบข้อมูลยืนยันตัวตนสำเร็จ",
+        "SUCCESS_VALIDATE_CLOUDFLARE_TURNSTILE": "ตรวจสอบ Cloudflare Turnstile สำเร็จ",
+
+        "SUCCESS_FETCH_CATEGORY": "ดึงข้อมูลหมวดหมู่สำเร็จ",
+        "SUCCESS_FETCH_CATEGORIES": "ดึงข้อมูลหมวดหมู่ทั้งหมดสำเร็จ",
+
+        "SUCCESS_CREATE_CATEGORY": "สร้างหมวดหมู่สำเร็จ",
+        "SUCCESS_UPDATE_CATEGORY": "อัปเดตหมวดหมู่สำเร็จ",
+        "SUCCESS_DELETE_CATEGORY": "ลบหมวดหมู่สำเร็จ",
+
+        "SUCCESS_FETCH_PRODUCT": "ดึงข้อมูลสินค้าสำเร็จ",
+        "SUCCESS_FETCH_PRODUCTS": "ดึงข้อมูลสินค้าทั้งหมดสำเร็จ",
+
+        "SUCCESS_CREATE_PRODUCT": "สร้างสินค้าสำเร็จ",
+        "SUCCESS_UPDATE_PRODUCT": "อัปเดตสินค้าสำเร็จ",
+        "SUCCESS_DELETE_PRODUCT": "ลบสินค้าสำเร็จ",
+
+        "SUCCESS_FETCH_USER": "ดึงข้อมูลผู้ใช้สำเร็จ",
+        "SUCCESS_FETCH_USERS": "ดึงข้อมูลผู้ใช้ทั้งหมดสำเร็จ",
+
+        "SUCCESS_UPDATE_USER_BALANCE": "อัปเดตยอดเงินของผู้ใช้สำเร็จ",
+        "SUCCESS_UPDATE_USER_ROLE": "อัปเดตบทบาทของผู้ใช้สำเร็จ",
+        "SUCCESS_DELETE_USER": "ลบผู้ใช้สำเร็จ",
+
+        "SUCCESS_LOGIN": "เข้าสู่ระบบสำเร็จ",
+        "SUCCESS_LOGOUT": "ออกจากระบบสำเร็จ",
+        "SUCCESS_REGISTER": "สมัครสมาชิกสำเร็จ",
+
+        "SUCCESS_FETCH_PURCHASED_HISTORY": "ดึงประวัติการซื้อสำเร็จ",
+        "SUCCESS_FETCH_TOPPED_UP_HISTORY": "ดึงประวัติการเติมเงินสำเร็จ",
+
+        "SUCCESS_PURCHASE": "สั่งซื้อสำเร็จ",
+        "SUCCESS_TOPUP": "เติมเงินสำเร็จ"
+    }
+}

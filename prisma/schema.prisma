@@ -1,0 +1,97 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+enum ProductType {
+    game_account
+    mystery_box
+    redemption_code
+}
+
+enum Role {
+    dev
+    admin
+    customer
+    guest
+}
+
+enum Status {
+    active
+    inactive
+}
+
+model categories {
+    id String @id @default(auto()) @map("_id") @db.ObjectId
+    name String
+    description String @default("")
+    image String
+    recommended Boolean
+    products Int @default(0)
+    status Status @default(active)
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
+
+model products {
+    id String @id @default(auto()) @map("_id") @db.ObjectId
+    name String
+    description String @default("")
+    image String
+    recommended Boolean
+    type ProductType
+    price Int
+    available Int @default(0)
+    stock String[] @default([])
+    status Status @default(active)
+    categoryId String @db.ObjectId
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
+
+model purchases {
+    id String @id @default(auto()) @map("_id") @db.ObjectId
+    userId String @db.ObjectId
+    productId String @db.ObjectId
+    productName String
+    productType ProductType
+    productPrice Int
+    productQuantity Int
+    productTotalAmount Int
+    productInfo String[]
+    createdAt DateTime @default(now())
+}
+
+model topups {
+    id String @id @default(auto()) @map("_id") @db.ObjectId
+    userId String @db.ObjectId
+    payload String
+    transRef String
+    transDate DateTime
+    amount Int
+    name String
+    createdAt DateTime @default(now())
+}
+
+model users {
+    id String @id @default(auto()) @map("_id") @db.ObjectId
+    email String @unique
+    username String @unique
+    password String
+    balance Int @default(0)
+    totalBalance Int @default(0)
+    role Role @default(guest)
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
