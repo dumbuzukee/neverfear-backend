@@ -620,7 +620,7 @@ const usersPlugin = (lang: Language) =>
 
                         const updatedProductStock = await ProductService
                             .updateStock(product.id, {
-                                availble: product.stock.length,
+                                available: product.stock.length,
                                 stock: product.stock,
                             });
 

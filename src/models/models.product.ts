@@ -73,6 +73,6 @@ export type ProductUpdate = {
 };
 
 export type ProductUpdateStock = {
-    availble: number;
+    available: number;
     stock: string[];
 };
