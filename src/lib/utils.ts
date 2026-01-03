@@ -13,8 +13,8 @@ export async function compareValues(value: string, hashedValue: string) {
 
 export const cookieConfig = (): CookieOptions => ({
     httpOnly: true,
-    sameSite: "lax",
-    secure: false,
+    sameSite: "none",
+    secure: true,
     maxAge: 86400,
     path: "/"
 });
