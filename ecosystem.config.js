@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
         {
-            name: "neverfear-api",
+            name: "neverfear-backend",
             script: "src/index.ts",
             interpreter: "bun",
             env: {

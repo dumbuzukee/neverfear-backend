@@ -12,6 +12,7 @@ export async function compareValues(value: string, hashedValue: string) {
 };
 
 export const cookieConfig = (): CookieOptions => ({
+    domain: ".anastassy.com",
     httpOnly: true,
     sameSite: "lax",
     secure: true,
