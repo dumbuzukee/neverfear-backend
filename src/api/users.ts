@@ -376,7 +376,11 @@ const usersPlugin = (lang: Language) =>
                     async ({
                         cookie: { authToken },
                     }) => {
-                        authToken.remove();
+                        authToken.set({
+                            value: "",
+                            ...cookieConfig(),
+                        });
+                        
                         return {
                             ok: true,
                             message: messages[lang]["SUCCESS_LOGOUT"],
