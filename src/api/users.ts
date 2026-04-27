@@ -571,7 +571,7 @@ const usersPlugin = (lang: Language) =>
                                 message: messages[lang]["INSUFFICIENT_STOCK"],
                             };
 
-                        const productTotalAmount = product.price * quantity;
+                        const productTotalAmount = (product.price * quantity) + (product.price * quantity * 0.07);
 
                         if (productTotalAmount > user.balance)
                             return {
